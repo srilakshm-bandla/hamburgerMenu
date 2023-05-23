@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.menu-container {
+  display: flex;
+}
+.trigger-button {
+  align-self: flex-end;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border: none;
+  margin-top: 32px;
+  outline: none;
+  cursor: pointer;
+}
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: center;
+  min-width: 1000px;
+}
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+.links-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.link-list-item {
+  display: flex;
+  flex-grow: 1;
+}
+.link-home {
+  font-size: 36px;
+  font-family: 'Roboto';
+  text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+  .link-home {
+    font-size: 40px;
+  }
+}
